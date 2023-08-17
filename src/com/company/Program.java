@@ -7,23 +7,17 @@ import com.company.shapes.Shape;
 public class Program {
 
 	public static void main(String[] args) {
-		final int i = 89;
+		String s1 = "Hello";
+		String s2 = "Hello";
+		String s3 = "Hello";
+		String s4 = "Hello";
 		
-		//	effectively final = once assigned, it is not changed
+		System.out.println(s1 == s2);
 		
-		int j;
+		s2 = new String("Hello");
 		
-		j = 95;
+		System.out.println(s1 == s2);
 		
-		while(true) {
-			
-		}
+		System.out.println(s1.equals(s2));
 	}
-	
-	public static void foo(int height) {
-		height++;
-		
-		height = 85;
-	}
-
 }

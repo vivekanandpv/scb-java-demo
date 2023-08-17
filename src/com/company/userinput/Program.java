@@ -6,7 +6,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		try (Scanner scanner = new Scanner(System.in)) {
-			String name = scanner.next();
+			String name = scanner.nextLine();
 			int age = scanner.nextInt();
 			double height = scanner.nextDouble();
 			double weight = scanner.nextDouble();
